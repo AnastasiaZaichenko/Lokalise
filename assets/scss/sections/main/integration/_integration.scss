@@ -1,0 +1,77 @@
+@use "../../../presets" as *;
+@use "../../../mixins" as *;
+
+
+.integration {
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;  
+    }
+    &__title {
+        font-weight: 600;
+        line-height: 1.15;
+        margin:165px 0 0 0;
+        max-width: 800px;
+
+        @include md-min {
+            font-size: 65px;
+        }
+        @include md {
+            font-size: 40px;
+            margin: 50px 0;
+        }
+
+    }
+    &__description {
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0 0 25px;
+        max-width: 585px;
+
+        @include md-min {
+            font-size: 25px;
+        }
+        @include md {
+            font-size: 23px;
+            margin-bottom: 50px;
+        }
+    }
+    &__picture {
+        max-width: 1023px;      
+    }
+
+    &__image {
+        @include md-min {
+            width: 100%;
+        }
+        @include md-sm {
+            width: 95%;
+        }
+    
+        @include sm {
+            width: 90%;
+        }
+    }
+
+    &__button {
+        min-width: 193px;
+        min-height: 60px;
+        border-width: 1px;
+        border-style: solid;
+        font-weight: 600;
+        font-size: 16px;
+        background-color: $color-accent;
+        border-color: $color-accent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 32px 0 160px;
+    }
+    &__button-item {
+        color: $color-white;
+        padding: 15px 15px;
+
+    }
+}

@@ -50,6 +50,42 @@
     }
 }
 
+.integration {
+    &__button {
+        min-width: 193px;
+        min-height: 60px;
+        border-width: 1px;
+        border-style: solid;
+        font-weight: 600;
+        font-size: 16px;
+        background-color: $color-accent;
+        border-color: $color-accent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 32px 0 0;
+    }
+    &__button-item {
+        color: $color-white;
+        padding: 15px 30px;
+    }
+}
+
+.localization {
+    &__button {
+        background-color: $color-black;
+        border-color: $color-black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__button-item {
+        color: $color-white;
+        padding: 15px 30px;
+        font-weight: 600;
+    }
+}
+
 .visually-hidden {
     @include visually-hidden;
 }

@@ -3,6 +3,10 @@
 
 
 .integration {
+    padding: 169px 0 162px;
+    @include md {
+        padding: 70px 0;
+    }
     &__content {
         display: flex;
         flex-direction: column;
@@ -12,7 +16,7 @@
     &__title {
         font-weight: 600;
         line-height: 1.15;
-        margin:165px 0 0 0;
+        margin:0 0;
         max-width: 800px;
 
         @include md-min {
@@ -20,7 +24,6 @@
         }
         @include md {
             font-size: 40px;
-            margin: 50px 0;
         }
 
     }
@@ -49,29 +52,8 @@
         @include md-sm {
             width: 95%;
         }
-    
         @include sm {
             width: 90%;
         }
-    }
-
-    &__button {
-        min-width: 193px;
-        min-height: 60px;
-        border-width: 1px;
-        border-style: solid;
-        font-weight: 600;
-        font-size: 16px;
-        background-color: $color-accent;
-        border-color: $color-accent;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 32px 0 160px;
-    }
-    &__button-item {
-        color: $color-white;
-        padding: 15px 15px;
-
     }
 }

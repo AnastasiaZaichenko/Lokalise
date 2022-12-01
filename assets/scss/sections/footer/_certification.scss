@@ -1,0 +1,40 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+
+
+.certification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid $color-black;
+    min-height: 126px;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    &__logo {
+    }
+
+    &__image {
+
+    }
+    &__description {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.25;
+        max-width: 300px;
+    }
+    &__details {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.25;
+
+    }
+    &__details-text {
+        margin: 0 96px;
+    }
+}

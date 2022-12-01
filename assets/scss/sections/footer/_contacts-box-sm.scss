@@ -1,0 +1,33 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+
+.contacts-box-sm {
+    padding-right: 106px;
+
+}
+.contacts-box-sm__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.25;
+    margin:0 0;
+}
+.contacts-box-smg__pictures {
+}
+.contacts-box-sm__image {
+    margin-top: 30px;
+}
+.contacts-box-sm__description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 300px;
+    margin-top: 11px;
+}
+.contacts-box-sm__button {
+}
+.contacts-box-sm__link {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+}

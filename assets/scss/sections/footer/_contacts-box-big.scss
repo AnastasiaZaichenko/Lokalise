@@ -1,0 +1,38 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+
+.contacts-box-big {
+}
+
+.contacts-box-big__title-box {
+    min-width: 187px;
+
+
+}
+.contacts-box-big__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.25;
+    margin: 0 0;
+    padding-bottom: 21px;
+
+}
+.contacts-box-big__list-box {
+}
+.contacts-box-big__list {
+    padding: 0;
+}
+.contacts-box-big__item {  
+    list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1;
+    padding-bottom: 15px;
+
+}
+
+.contacts-box-big__link {
+    padding-bottom: 5px;
+
+}

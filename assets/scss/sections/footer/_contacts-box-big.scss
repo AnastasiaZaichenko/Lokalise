@@ -3,36 +3,50 @@
 
 
 .contacts-box-big {
+    @include lg  {
+        grid-template-areas:box-big;
+        }
+
+    &__title-box {
+        min-width: 187px;
+        @include xl {
+            min-width: 150px;
+        }
+
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.25;
+        margin: 0 0;
+        padding-bottom: 21px;
+    }
+    &__list-box {
+    }
+    &__list {
+        padding: 0;
+    }
+    &__item {  
+        list-style: none;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1;
+        padding-bottom: 15px;
+    }
+    &__link {
+        padding-bottom: 5px;
+    }
 }
 
-.contacts-box-big__title-box {
-    min-width: 187px;
-
-
-}
-.contacts-box-big__title {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.25;
-    margin: 0 0;
-    padding-bottom: 21px;
-
-}
-.contacts-box-big__list-box {
-}
-.contacts-box-big__list {
-    padding: 0;
-}
-.contacts-box-big__item {  
-    list-style: none;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1;
-    padding-bottom: 15px;
-
-}
-
-.contacts-box-big__link {
-    padding-bottom: 5px;
-
-}
+// .contacts-box-big-product {
+//     grid-area: prod;
+// }
+// .contacts-box-big-support {
+//     grid-area: sup;
+// }
+// .contacts-box-big-company {
+//     grid-area: comp;
+// }
+// .contacts-box-big-legal {
+//     grid-area: leg;
+// }

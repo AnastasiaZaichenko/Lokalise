@@ -4,7 +4,7 @@
 
   @mixin job-item {
     display: flex;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 
     @include xl-min {
         gap: 138px;

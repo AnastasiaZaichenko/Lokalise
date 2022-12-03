@@ -33,13 +33,12 @@
         line-height: 1.33;
         margin: 0 0;
 
-
-    @include lg-min {
-        font-size: 30px;
-    }
-    @include lg {
-        font-size: 20px;
-    }
+        @include lg-min {
+            font-size: 30px;
+        }
+        @include lg {
+            font-size: 20px;
+        }
     }
     
     &__signature {

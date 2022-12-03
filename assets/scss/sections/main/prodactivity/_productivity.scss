@@ -15,8 +15,8 @@
         @include md {
             font-size: 35px;    
         }
-
     }
+    
     &__content {
         @include md-min {
             display: flex;
